@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Round One</title>
+   <!-- Link to external stylesheet for styling page -->
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<header>
+   <!-- Header section containing round info. -->
+  <h1 class="headTwo">ROUND ONE</h1>
+</header>
+
+<body>
+  <!-- Sub-header indicating current player's turn -->
+  <h2 class="headThree" id="currentPlayerTurn">PLAYER TURN</h2>
+   <!-- Main container for categories, questions, & points -->
+  <div class="mainDiv" id="mainDiv">
+    <div class="catDiv">
+      <h3 class="txtTwo">GEOGRAPHY</h3>
+      <p class="txt" id="catOne_200">200</p>
+      <p class="txt" id="catOne_400">400</p>
+      <p class="txt" id="catOne_600">600</p>
+      <p class="txt" id="catOne_800">800</p>
+      <p class="txt" id="catOne_1000">1000</p>
+    </div>
+    <div class="catDiv">
+      <h3 class="txtTwo">DISNEY</h3>
+      <p class="txt" id="catTwo_200">200</p>
+      <p class="txt" id="catTwo_400">400</p>
+      <p class="txt" id="catTwo_600">600</p>
+      <p class="txt" id="catTwo_800">800</p>
+      <p class="txt" id="catTwo_1000">1000</p>
+    </div>
+    <div class="catDiv">
+      <h3 class="txtTwo">THE OFFICE</h3>
+      <p class="txt" id="catThree_200">200</p>
+      <p class="txt" id="catThree_400">400</p>
+      <p class="txt" id="catThree_600">600</p>
+      <p class="txt" id="catThree_800">800</p>
+      <p class="txt" id="catThree_1000">1000</p>
+    </div>
+    <div class="catDiv">
+      <h3 class="txtTwo">STAR WARS</h3>
+      <p class="txt" id="catFour_200">200</p>
+      <p class="txt" id="catFour_400">400</p>
+      <p class="txt" id="catFour_600">600</p>
+      <p class="txt" id="catFour_800">800</p>
+      <p class="txt" id="catFour_1000">1000</p>
+    </div>
+    <div class="catDiv">
+      <h3 class="txtTwo">LITERATURE</h3>
+      <p class="txt" id="catFive_200">200</p>
+      <p class="txt" id="catFive_400">400</p>
+      <p class="txt" id="catFive_600">600</p>
+      <p class="txt" id="catFive_800">800</p>
+      <p class="txt" id="catFive_1000">1000</p>
+    </div>
+    <div class="catDiv">
+      <h3 class="txtTwo">MYTHOLOGY</h3>
+      <p class="txt" id="catSix_200">200</p>
+      <p class="txt" id="catSix_400">400</p>
+      <p class="txt" id="catSix_600">600</p>
+      <p class="txt" id="catSix_800">800</p>
+      <p class="txt" id="catSix_1000">1000</p>
+    </div>
+  </div>
+
+  <div id="inDiv">
+    <!-- Input field for user inputs -->
+    <input type="txt" id="input" placeholder="hmmm...">
+  </div>
+
+  <div id="buttons">
+     <!-- Button for submitting guess -->
+    <button class="buttonTwo" id="guessButton">GUESS</button>
+     <!-- Button for passing turn -->
+    <button class="buttonTwo" id="passButton">PASS</button>
+  </div>
+
+  <div id="scores">
+      <!-- Display for Player 1 score -->
+    <p class="score">Player 1 Score: <span id="p1score" class="score">0</span></p>
+      <!-- Display for Player 2 score -->
+    <p class="score">Player 2 Score: <span id="p2score" class="score">0</span></p>
+  </div>
+
+  <div id="nxtRound">
+    <!-- Button to advance to next round -->
+    <button class="nxtButton" id="nxtRndButton">
+      Round <br> 2
+    </button>
+  </div>
+  
+  <!-- Link to external JavaScript file for functionality -->
+  <script src="scripts\round-one.js"></script> 
+
+</body>
+
+<footer class="footer2">Est 2024</footer>
+
+</html>
+
+

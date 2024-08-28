@@ -1,0 +1,242 @@
+body, html {
+  background: radial-gradient(#387989, #6dd5ed);
+  background-repeat: no-repeat;
+  }
+  
+  .headOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  
+  .headOne:hover {
+    transform: scale(1.10);
+  }
+  
+  .divOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0;
+    max-width: 50vw;
+    max-height: 50vh;
+    margin-bottom: 5vh;
+  }
+  
+  .button {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 5vh;
+    padding: 10px 20px;
+    height: 10vh;
+    width: 40vh;
+    color: white;
+    background-color: #f04d4d;
+  }
+  
+  #button1:hover {
+    background-color: #008cff;
+  }
+  
+  #button1:active {
+    transform: scale(0.75);
+  }
+  
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 75%;
+    margin-bottom: 0;
+  }
+
+
+
+.headTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vh;
+    margin-top: 5vh;
+}
+
+.headThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+    margin-top: 5vh;
+}
+
+.mainDiv {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-height: 70vh;
+    margin-bottom: 20vh;
+}   
+
+.txtTwo {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1.25px solid black;
+  margin-bottom: 0px;
+  padding: 2vh;
+  text-align: center;
+}
+
+.txt {
+  border: 1.25px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  background-color: azure;
+  padding: 5vh;
+  margin: 0;
+}
+
+#inDiv {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#input {
+  width: 40vw;
+  padding: 2vh;
+  margin-top: 5vh;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vh;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button2 {
+  padding: 2vh;
+  margin: 2vh;
+  font-size: 4vh;
+  background-color: lightgray;
+}
+
+#scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.score {
+  font-size: 4vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nxtRound {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nxtButton {
+  padding: 2vh;
+  font-size: 4vh;
+  margin-right: 5vw;
+  background-color: lightgray;
+  text-decoration: none;
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+}
+
+.footer2 {
+  text-align: center;
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+.finalText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finalInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finalCategory {
+  font-size: 200%;
+  margin-bottom: 1px;
+}
+
+.finalQuestion {
+  border: 2px solid black;
+  background-color: white;
+  padding: 125px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.input2 {
+  margin-bottom: 15px;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.button3 {
+  padding: 1vh;
+  font-size: 150%;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-bottom: 74px;
+  background-color: lightgray;
+  text-decoration: none;
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+}
